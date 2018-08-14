@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<script type="text/javascript" src="index.js"></script>
+	<title>Sticky Nav</title>
+<style type="text/css">
+html {
+	background: #eee;
+	font-size: 100%;
+}
+
+body {
+	width: 70%;
+	margin: 0 auto;
+}
+
+header img {
+	max-width: 100%;
+	display: block;
+}
+
+#top_nav {
+	overflow: hidden;
+	background: linear-gradient(45deg, #000, #71568b);
+	line-height: 3rem;
+}
+
+#top_nav a {
+	text-decoration: none;
+	color: #f2f2f2;
+}
+
+#top_nav ul {
+	text-align: right;
+	padding: 0;
+	margin: 0;
+}
+
+#top_nav ul li {
+	display: inline-block;
+}
+
+#top_nav ul li a {
+	display: inline-block;
+	padding: 0 1.5rem;
+}
+
+#top_nav ul li a:hover {
+	color: #71568b;
+	background: #f2f2f2;
+}
+
+#top_nav .home {
+	float:left;
+	padding-left: 1.5rem;
+	color: #71568b;
+	font-weight: 900;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: inherit;
+}
+
+h2 {
+	text-align: center;
+	font-size: 3rem;
+}
+
+</style>
+</head>
+<body>
+	<header>
+		<img src="banner.jpg">
+	</header>
+	<nav id='top_nav'>
+		<a href="#" class='home'>Home</a>
+		<ul>
+			<li><a href="#">Cities</a></li>
+			<li><a href="#">Guide</a></li>
+			<li><a href="#">Contact us</a></li>
+		</ul>
+	</nav>
+	<article>
+		<h2>Sticky Nav Bar Component</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere libero eu lorem auctor ornare. Ut mi dui, volutpat ut arcu ac, volutpat efficitur augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ex ut sem aliquam faucibus ac ac sapien. Maecenas risus justo, ornare vel volutpat id, tristique ut augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean et dui vel est gravida ornare in et orci. Nullam in diam orci. Aenean eget quam libero. Cras dignissim risus velit. Fusce porta sem et diam varius, at ullamcorper augue tincidunt. In hac habitasse platea dictumst. Donec dignissim neque ac tincidunt maximus. Suspendisse sagittis viverra dui, vitae bibendum quam sollicitudin nec. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+		<p>Ut rutrum nec mauris eget malesuada. Curabitur id sem lectus. Sed blandit eleifend sapien volutpat posuere. Etiam fermentum, magna eget viverra tempor, enim nisl feugiat nibh, imperdiet feugiat justo nisi in mi. Suspendisse dapibus porta mauris, placerat iaculis felis sollicitudin vel. Phasellus rhoncus, augue quis aliquam vehicula, risus lectus varius quam, vel aliquam erat enim in eros. Vivamus erat sem, aliquam eu nibh et, venenatis ullamcorper metus. Aliquam eget hendrerit quam. Vestibulum ac sapien dignissim, porta justo sit amet, cursus risus. Suspendisse varius sollicitudin purus, et sagittis velit eleifend non. Praesent iaculis venenatis nisi quis convallis. Pellentesque pellentesque nec ex et tincidunt.</p>
+		<p>In est erat, porta quis porttitor eget, porttitor eget risus. Duis nibh eros, ultricies sit amet lacus vel, commodo rutrum lacus. Morbi dapibus ligula vel elit venenatis, in semper ligula lacinia. Vestibulum porta magna eget nibh luctus, ut lobortis lectus accumsan. Donec tincidunt in sapien vel lacinia. Suspendisse urna risus, facilisis sed dolor nec, accumsan venenatis magna. Quisque viverra metus in mauris tincidunt egestas. Aenean vel velit eu lacus dapibus placerat. Praesent tristique dolor non tristique hendrerit. Donec interdum feugiat augue in egestas. Maecenas a bibendum ex. Mauris in neque a leo convallis fermentum. Aenean mollis rhoncus nibh ut luctus. Ut egestas vel orci at sollicitudin. Fusce dapibus nisi id ligula facilisis molestie.</p>
+		<p>Nunc in commodo metus. Donec vestibulum volutpat libero consectetur semper. Nam consequat nibh at luctus finibus. Nullam condimentum tortor ut eros hendrerit rutrum ac et neque. Sed interdum, elit vitae porta suscipit, dolor dolor mollis ligula, sagittis dictum dolor est sed tellus. Cras porttitor lacus quam, eu euismod risus dapibus quis. Proin placerat dui vel nunc lobortis, vel placerat dolor viverra. Nam vitae turpis dolor. Etiam feugiat ante id eros scelerisque, id dapibus erat ultrices. Nullam gravida leo nulla, nec placerat tortor dignissim at. Sed elementum dolor eget ullamcorper efficitur. Fusce fermentum elit vitae velit laoreet faucibus.</p>
+		<p>Cras ultrices nibh et molestie tempus. Nullam nec luctus lorem. Donec laoreet, nisl eget vehicula consequat, velit purus finibus tellus, vel gravida odio tellus eu mi. Fusce varius pellentesque ante at elementum. Nunc a tincidunt velit. Aenean mattis laoreet viverra. Nulla non ligula diam. Morbi ut hendrerit quam. Duis sit amet nunc tellus. Nam augue leo, iaculis et justo in, malesuada maximus sapien.</p>		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere libero eu lorem auctor ornare. Ut mi dui, volutpat ut arcu ac, volutpat efficitur augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ex ut sem aliquam faucibus ac ac sapien. Maecenas risus justo, ornare vel volutpat id, tristique ut augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean et dui vel est gravida ornare in et orci. Nullam in diam orci. Aenean eget quam libero. Cras dignissim risus velit. Fusce porta sem et diam varius, at ullamcorper augue tincidunt. In hac habitasse platea dictumst. Donec dignissim neque ac tincidunt maximus. Suspendisse sagittis viverra dui, vitae bibendum quam sollicitudin nec. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+		<p>Ut rutrum nec mauris eget malesuada. Curabitur id sem lectus. Sed blandit eleifend sapien volutpat posuere. Etiam fermentum, magna eget viverra tempor, enim nisl feugiat nibh, imperdiet feugiat justo nisi in mi. Suspendisse dapibus porta mauris, placerat iaculis felis sollicitudin vel. Phasellus rhoncus, augue quis aliquam vehicula, risus lectus varius quam, vel aliquam erat enim in eros. Vivamus erat sem, aliquam eu nibh et, venenatis ullamcorper metus. Aliquam eget hendrerit quam. Vestibulum ac sapien dignissim, porta justo sit amet, cursus risus. Suspendisse varius sollicitudin purus, et sagittis velit eleifend non. Praesent iaculis venenatis nisi quis convallis. Pellentesque pellentesque nec ex et tincidunt.</p>
+		<p>In est erat, porta quis porttitor eget, porttitor eget risus. Duis nibh eros, ultricies sit amet lacus vel, commodo rutrum lacus. Morbi dapibus ligula vel elit venenatis, in semper ligula lacinia. Vestibulum porta magna eget nibh luctus, ut lobortis lectus accumsan. Donec tincidunt in sapien vel lacinia. Suspendisse urna risus, facilisis sed dolor nec, accumsan venenatis magna. Quisque viverra metus in mauris tincidunt egestas. Aenean vel velit eu lacus dapibus placerat. Praesent tristique dolor non tristique hendrerit. Donec interdum feugiat augue in egestas. Maecenas a bibendum ex. Mauris in neque a leo convallis fermentum. Aenean mollis rhoncus nibh ut luctus. Ut egestas vel orci at sollicitudin. Fusce dapibus nisi id ligula facilisis molestie.</p>
+		<p>Nunc in commodo metus. Donec vestibulum volutpat libero consectetur semper. Nam consequat nibh at luctus finibus. Nullam condimentum tortor ut eros hendrerit rutrum ac et neque. Sed interdum, elit vitae porta suscipit, dolor dolor mollis ligula, sagittis dictum dolor est sed tellus. Cras porttitor lacus quam, eu euismod risus dapibus quis. Proin placerat dui vel nunc lobortis, vel placerat dolor viverra. Nam vitae turpis dolor. Etiam feugiat ante id eros scelerisque, id dapibus erat ultrices. Nullam gravida leo nulla, nec placerat tortor dignissim at. Sed elementum dolor eget ullamcorper efficitur. Fusce fermentum elit vitae velit laoreet faucibus.</p>
+		<p>Cras ultrices nibh et molestie tempus. Nullam nec luctus lorem. Donec laoreet, nisl eget vehicula consequat, velit purus finibus tellus, vel gravida odio tellus eu mi. Fusce varius pellentesque ante at elementum. Nunc a tincidunt velit. Aenean mattis laoreet viverra. Nulla non ligula diam. Morbi ut hendrerit quam. Duis sit amet nunc tellus. Nam augue leo, iaculis et justo in, malesuada maximus sapien.</p>
+	</article>
+
+
+
+</body>
+</html>
